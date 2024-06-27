@@ -1,0 +1,5 @@
+place=input('enter new place:')
+state=input('Enter State:')
+file=open('tourist_places.txt','a')
+file.write("\n"+ place + "," + state)
+file.close()
